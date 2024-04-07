@@ -60,7 +60,7 @@
 							</p>
 							<p>
 								<a href="assets/cv.pdf" download>
-									<button class="download-cv">Descargar CV</button>
+									<button class="download-cv translate" data-key="header.download_cv"></button>
 								</a>
 							</p>
 						</div>
@@ -525,6 +525,16 @@
 	</div>
 
 	<img id="logo" src="favicon.png" alt="Logo de mi sitio">
+
+	<div class="dropdown-language">
+		<button class="dropbtn-language"><img id="flag" src="images/spain_flag.png" alt="Flag"><span id="lang">ES</span></button>
+		<div class="dropdown-content-language">
+			<button onclick="callToChangeLanguage('EN')"><img src="images/uk_flag.png" alt="English"></button>
+			<button onclick="callToChangeLanguage('ES')"><img src="images/spain_flag.png" alt="Spanish"></button>
+			<button onclick="callToChangeLanguage('AS')"><img src="images/asturias_flag.png" alt="Asturian"></button>
+			<button onclick="callToChangeLanguage('VAL')"><img src="images/valencia_flag.png" alt="Valencian"></button>
+		</div>
+	</div>
 	
 	<!-- jQuery -->
 	<script src="js/jquery.min.js"></script>
@@ -540,6 +550,27 @@
 	<script src="js/jquery.easypiechart.min.js"></script>
 	<!-- Main -->
 	<script src="js/main.js"></script>
+	<!-- i18n-->
+	<script src="js/i18n.js"></script>
+
+	<script>
+		function callToChangeLanguage(lang) {
+			changeLanguage(lang);
+			document.getElementById('lang').textContent = lang;
+			if(lang === 'EN') {
+				document.getElementById('flag').src = 'images/uk_flag.png';
+			} else if(lang === 'ES') {
+				document.getElementById('flag').src = 'images/spain_flag.png';
+			} else if (lang === 'AS') {
+				document.getElementById('flag').src = 'images/asturias_flag.png';
+			} else if (lang === 'VAL') {
+				document.getElementById('flag').src = 'images/valencia_flag.png';
+			}
+		}
+		document.addEventListener("DOMContentLoaded", function() {
+			callToChangeLanguage('ES');
+		});
+	</script>
 
 	</body>
 </html>
