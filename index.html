@@ -537,7 +537,14 @@
 			}
 		}
 		document.addEventListener("DOMContentLoaded", function() {
-			callToChangeLanguage('ES');
+			var userLanguage = navigator.language || navigator.userLanguage;
+			if(userLanguage.includes('es')) {
+				callToChangeLanguage('ES');
+			} else if (userLanguage.includes('en')){
+				callToChangeLanguage('EN');
+			} else {
+				callToChangeLanguage('ES');
+			}
 		});
 	</script>
 

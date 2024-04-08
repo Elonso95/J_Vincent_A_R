@@ -1284,6 +1284,11 @@ input[type="text"] {
   font-size: x-large;
 }
 
+.feature-copy {
+  width: 330px !important;
+  overflow: auto;
+}
+
 body {
   background: #2d2d2d;
 }
