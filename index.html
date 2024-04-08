@@ -49,7 +49,7 @@
 						<div class="display-tc js-fullheight animate-box" data-animate-effect="fadeIn">
 							<div class="profile-thumb" style="background: url(images/user-3.jpg);"></div>
 							<h1><span>Jose Vicente <br/> Alonso Rivera</span></h1>
-							<h3><span>Producción Audiovisual</span></h3>
+							<h3><span class="translate" data-key="header.title"></span></h3>
 							<p>
 								<ul class="fh5co-social-icons">
 									<li><a href="https://www.facebook.com/JVincentAR" target="_blank"><i class="icon-facebook2"></i></a></li>
@@ -60,7 +60,7 @@
 							</p>
 							<p>
 								<a href="assets/cv.pdf" download>
-									<button class="download-cv">Descargar CV</button>
+									<button class="download-cv translate" data-key="header.download_cv"></button>
 								</a>
 							</p>
 						</div>
@@ -74,28 +74,17 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
-					<h2>Acerca de mi</h2>
+					<h2 class="translate" data-key="about.title"></h2>
 				</div>
 			</div>
 			<div class="row">
 				<div class="col-md-4">
 					<ul class="info">
-						<li><span class="first-block">Phone:</span><span class="second-block">+34 696 79 54 02</span></li>
+						<li><span class="first-block translate" data-key="about.phone"></span><span class="second-block">+34 696 79 54 02</span></li>
 						<li><span class="first-block">Email:</span><span class="second-block">j_vincent69@msn.com</span></li>
 					</ul>
 				</div>
-				<div class="col-md-8" style="color: #fff">
-					<h2>!Hola!</h2>
-					<p>Soy un profesional con una amplia formación y experiencia en distintos ámbitos del sector audiovisual. 
-						Mi experiencia me ha proporcionado la capacidad de anticiparme a los desafíos, ser eficiente y encontrar soluciones rápidas y efectivas.
-					</p>
-					<p>Estoy abierto a explorar nuevas oportunidades y proyectos emocionantes en el campo audiovisual. 
-						Mi flexibilidad horaria y mi disposición para desplazarme, si las condiciones son las adecuadas, me permiten adaptarme a diversas situaciones y 
-						requerimientos de trabajo.
-					</p>
-					<p>Mi objetivo es aportar valor y creatividad a cualquier proyecto o producción en la que participe. 
-						Te invito a explorar mi portfolio para conocer más sobre mi trabajo y habilidades.
-					</p>
+				<div class="col-md-8 translate" style="color: #fff" data-key="about.description">
 				</div>
 			</div>
 		</div>
@@ -105,23 +94,23 @@
 		<div class="container">
 			<div class="row animate-box">
 				<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
-					<h2>Mi resumen</h2>
+					<h2 class="translate" data-key="resume.title"></h2>
 				</div>
 			</div>
 			<div class="timeline header">
-				<button id="workExperienceButton" class="timeline-heading text-center animate-box">
+				<button id="workExperienceButton" class="timeline-heading text-center animate-box" style="min-width: 285px;">
 					<div>
-						<h3 id="workExperienceHeadingButton" class="active">Experiencia Laboral</h3>
+						<h3 id="workExperienceHeadingButton" class="active translate" data-key="resume.work_experience_button"></h3>
 					</div>
 				</button>
-				<button id="formationButton" class="timeline-heading text-center animate-box">
+				<button id="formationButton" class="timeline-heading text-center animate-box" style="min-width: 300px;">
 					<div>
-						<h3 id="formationHeadingButton" >Formación Académica</h3>
+						<h3 id="formationHeadingButton" class="translate" data-key="resume.formation_button"></h3>
 					</div>
 				</button>
-				<button id="extraButton" class="timeline-heading text-center animate-box">
+				<button id="extraButton" class="timeline-heading text-center animate-box" style="min-width: 350px;">
 					<div>
-						<h3 id="extraHeadingButton" >Formación Complementaria</h3>
+						<h3 id="extraHeadingButton" class="translate" data-key="resume.extra_button"></h3>
 					</div>
 				</button>
 			</div>
@@ -132,13 +121,13 @@
 							<div class="timeline-badge"><i class="icon-suitcase"></i></div>
 							<div class="timeline-panel">
 								<div class="timeline-heading">
-									<h3 class="timeline-title">Auxiliar de Produccion</h3>
+									<h3 class="timeline-title translate" data-key="resume.production_assistant"></h3>
 									<span class="company">2021 - 2023</span>
 								</div>
 								<div class="timeline-body">
 									<ul style="list-style-type: none;">
 										<li><strong>División XL Producc. SL</strong> (Sevilla) <br/> "Un País Para Leerlo" RTVE</li>
-										<li><strong>Video-clip: Loquillo "La Lluvia Dice"</strong> <br/> (Gestión de figuración)</li>
+										<li class="translate" data-key="resume.videoclip_extra"></li>
 										<li><strong>Vaca Films (Vaca Net TV S.L La Coruña)</strong> (Infiesto) <br/> NETFLIX</li>
 									</ul>
 								</div>
@@ -148,19 +137,14 @@
 							<div class="timeline-badge"><i class="icon-suitcase"></i></div>
 							<div class="timeline-panel">
 								<div class="timeline-heading">
-									<h3 class="timeline-title">Operador de cámara</h3>
+									<h3 class="timeline-title translate" data-key="resume.camera_operator"></h3>
 									<span class="company">2018 - 2023</span>
 								</div>
 								<div class="timeline-body">
 									<ul style="list-style-type: none;">
-										<li><strong>Tossalet Producc. SL</strong> (Quart de Poblet) <br/> 
-											Streaming de eventos 
-											culturales y deportivos. Vimeo, Youtube RFEF, La Liga Sports TV, 
-											Alicantí TV.
+										<li class="translate" data-key="resume.operator1">
 										</li>
-										<li><strong>Proima-Zebrastur SL</strong> <br/> (Tudela Agüeria) <br/> 
-											Grabación y directo en 
-											plató y exteriores para TPA.
+										<li class="translate" data-key="resume.operator2">
 										</li>
 									</ul>
 								</div>
@@ -170,16 +154,11 @@
 							<div class="timeline-badge"><i class="icon-suitcase"></i></div>
 							<div class="timeline-panel">
 								<div class="timeline-heading">
-									<h3 class="timeline-title">Asistencia a la producción de audiovisuales</h3>
+									<h3 class="timeline-title translate" data-key="resume.audiovisual_production"></h3>
 									<span class="company">2020</span>
 								</div>
 								<div class="timeline-body">
-									<ul style="list-style-type: none;">
-										<li><strong>BEAT Films SL</strong> (Oviedo)</li> 
-										<li>Asistencia Producción:</li>
-										<li>Spots</li>
-										<li>Publicidad</li>
-										<li>Videos Corporativos</li>
+									<ul style="list-style-type: none;" class="translate" data-key="resume.audiovisual_production_list">
 									</ul>
 								</div>
 							</div>
@@ -188,17 +167,11 @@
 							<div class="timeline-badge"><i class="icon-suitcase"></i></div>
 							<div class="timeline-panel">
 								<div class="timeline-heading">
-									<h3 class="timeline-title">Asistencia a la realización en televisión</h3>
+									<h3 class="timeline-title translate" data-key="resume.television_production"></h3>
 									<span class="company">2019</span>
 								</div>
 								<div class="timeline-body">
-									<ul style="list-style-type: none;">
-										<li><strong>Enfoque Visual SL</strong> (Avilés)</li>
-										<li>Grabación auxiliar de realización</li>
-										<li>Edición</li> 
-										<li>Spots</li>
-										<li>Videos(VINX, TVE, etc…)</li>
-										</li>
+									<ul style="list-style-type: none;" class="translate" data-key="resume.television_production_list">
 									</ul>
 								</div>
 							</div>
@@ -207,7 +180,7 @@
 							<div class="timeline-badge"><i class="icon-suitcase"></i></div>
 							<div class="timeline-panel">
 								<div class="timeline-heading">
-									<h3 class="timeline-title">Figurante</h3>
+									<h3 class="timeline-title translate" data-key="resume.extra"></h3>
 								</div>
 								<div class="timeline-body">
 									<ul style="list-style-type: none;">
@@ -221,15 +194,11 @@
 							<div class="timeline-badge"><i class="icon-suitcase"></i></div>
 							<div class="timeline-panel">
 								<div class="timeline-heading">
-									<h3 class="timeline-title">Montaje y Postproducción de audiovisuales</h3>
+									<h3 class="timeline-title translate" data-key="resume.postpo_audiovisuals"></h3>
 									<span class="company">2017 - 2018</span>
 								</div>
 								<div class="timeline-body">
-									<ul style="list-style-type: none;">
-										<li><strong>Tajalápiz.</strong>(Gijon) 80h</li>
-										<li>Encaje de planos</li>
-										<li>Grafismos</li> 
-										<li>Elaboracion de cabecera de programa con efectos de audios y video.</li>
+									<ul style="list-style-type: none;" class="translate" data-key="resume.postpo_audiovisuals_list">
 									</ul>
 								</div>
 							</div>
@@ -243,12 +212,12 @@
 							<div class="timeline-badge"><i class="icon-graduation-cap"></i></div>
 							<div class="timeline-panel">
 								<div class="timeline-heading">
-									<h3 class="timeline-title">Asistencia a la Producción Cinematográfica y de Obras Audiovisuales.</h3>
+									<h3 class="timeline-title translate" data-key="resume.film_audiovisual_works"></h3>
 									<span class="company">2020</span>
 								</div>
 								<div class="timeline-body">
 									<ul style="list-style-type: none;">
-										<li><strong>Certificado Profesionalidad Nivel 3.</strong></li>
+										<li><strong class="translate" data-key="resume.certificate_level"></strong></li>
 										<li>Centro Integrado Formación Profesional Comunicación, Imagen y Sonido(CISLAN) 490h</li>
 									</ul>
 								</div>
@@ -258,12 +227,12 @@
 							<div class="timeline-badge"><i class="icon-graduation-cap"></i></div>
 							<div class="timeline-panel">
 								<div class="timeline-heading">
-									<h3 class="timeline-title">Asistencia a la Realización en Televisión</h3>
+									<h3 class="timeline-title translate" data-key="resume.television_production"></h3>
 									<span class="company">2019</span>
 								</div>
 								<div class="timeline-body">
 									<ul style="list-style-type: none;">
-										<li><strong>Certificado Profesionalidad Nivel 3.</strong></li>
+										<li><strong class="translate" data-key="resume.certificate_level"></strong></li>
 										<li>CIFP (CISLAN) 530h</li>
 									</ul>
 								</div>
@@ -273,12 +242,12 @@
 							<div class="timeline-badge"><i class="icon-graduation-cap"></i></div>
 							<div class="timeline-panel">
 								<div class="timeline-heading">
-									<h3 class="timeline-title">Cámara de Cine, Vídeo y Televisión</h3>
+									<h3 class="timeline-title translate" data-key="resume.film_video_television_camera"></h3>
 									<span class="company">2018</span>
 								</div>
 								<div class="timeline-body">
 									<ul style="list-style-type: none;">
-										<li><strong>Certificado Profesionalidad Nivel 3.</strong></li>
+										<li><strong class="translate" data-key="resume.certificate_level"></strong></li>
 										<li>CIFP (CISLAN) 630h</li>
 									</ul>
 								</div>
@@ -288,12 +257,12 @@
 							<div class="timeline-badge"><i class="icon-graduation-cap"></i></div>
 							<div class="timeline-panel">
 								<div class="timeline-heading">
-									<h3 class="timeline-title">Montaje y Postproducción de Audiovisuales</h3>
+									<h3 class="timeline-title translate" data-key="resume.postpo_audiovisuals"></h3>
 									<span class="company">2017</span>
 								</div>
 								<div class="timeline-body">
 									<ul style="list-style-type: none;">
-										<li><strong>Certificado Profesionalidad Nivel 3.</strong></li>
+										<li><strong class="translate" data-key="resume.certificate_level"></strong></li>
 										<li>CIFP (CISLAN) 510h</li>
 									</ul>
 								</div>
@@ -303,12 +272,12 @@
 							<div class="timeline-badge"><i class="icon-graduation-cap"></i></div>
 							<div class="timeline-panel">
 								<div class="timeline-heading">
-									<h3 class="timeline-title">Editor – Montador de Imagen</h3>
+									<h3 class="timeline-title translate" data-key="resume.image_assembler"></h3>
 									<span class="company">2011</span>
 								</div>
 								<div class="timeline-body">
 									<ul style="list-style-type: none;">
-										<li><strong>Certificado Profesionalidad Nivel 3.</strong></li>
+										<li><strong class="translate" data-key="resume.certificate_level"></strong></li>
 										<li>CIFP (CISLAN)</li>
 									</ul>
 								</div>
@@ -323,7 +292,7 @@
 							<div class="timeline-badge"><i class="icon-graduation-cap"></i></div>
 							<div class="timeline-panel">
 								<div class="timeline-heading">
-									<h3 class="timeline-title">Inglés - B1.2 + Clases Virtuales</h3>
+									<h3 class="timeline-title translate" data-key="resume.language"></h3>
 									<span class="company">2023</span>
 								</div>
 								<div class="timeline-body">
@@ -337,12 +306,12 @@
 							<div class="timeline-badge"><i class="icon-graduation-cap"></i></div>
 							<div class="timeline-panel">
 								<div class="timeline-heading">
-									<h3 class="timeline-title">Tratamiento de imágenes digitales</h3>
+									<h3 class="timeline-title translate" data-key="resume.digital_image_process"></h3>
 									<span class="company">2022</span>
 								</div>
 								<div class="timeline-body">
 									<ul style="list-style-type: none;">
-										<li>Dentro del certificado de Producción Fotográfica</li>
+										<li class="translate" data-key="resume.digital_image_process_desc"></li>
 										<li>CISLAN</li>
 									</ul>
 								</div>
@@ -352,7 +321,7 @@
 							<div class="timeline-badge"><i class="icon-graduation-cap"></i></div>
 							<div class="timeline-panel">
 								<div class="timeline-heading">
-									<h3 class="timeline-title">Edición en video digital avanzado</h3>
+									<h3 class="timeline-title translate" data-key="resume.advanced_digital_video"></h3>
 									<span class="company">2014</span>
 								</div>
 								<div class="timeline-body">
@@ -367,7 +336,7 @@
 							<div class="timeline-badge"><i class="icon-graduation-cap"></i></div>
 							<div class="timeline-panel">
 								<div class="timeline-heading">
-									<h3 class="timeline-title">Fotografía Digital, Universidad Popular</h3>
+									<h3 class="timeline-title translate" data-key="resume.digital_photography"></h3>
 									<span class="company">2012</span>
 								</div>
 								<div class="timeline-body">
@@ -377,11 +346,11 @@
 								</div>
 							</div>
 						</li>
-						<li class="animate-box timeline-inverted">
+						<li class="animate-box timeline-unverted">
 							<div class="timeline-badge"><i class="icon-graduation-cap"></i></div>
 							<div class="timeline-panel">
 								<div class="timeline-heading">
-									<h3 class="timeline-title">Mantenimiento de Sistemas Informáticos</h3>
+									<h3 class="timeline-title translate" data-key="resume.computer_maintenance"></h3>
 									<span class="company">2010</span>
 								</div>
 								<div class="timeline-body">
@@ -396,7 +365,7 @@
 							<div class="timeline-badge"><i class="icon-graduation-cap"></i></div>
 							<div class="timeline-panel">
 								<div class="timeline-heading">
-									<h3 class="timeline-title">Internet y diseño de páginas web</h3>
+									<h3 class="timeline-title translate" data-key="resume.internet_webdesign"></h3>
 									<span class="company">2010</span>
 								</div>
 								<div class="timeline-body">
@@ -421,7 +390,7 @@
 			<div class="services-padding">
 				<div class="row header">
 					<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
-						<h2>Aptitudes</h2>
+						<h2 class="translate" data-key="skills.title"></h2>
 					</div>
 				</div>
 				<div class="row">
@@ -431,7 +400,7 @@
 								<i class="icon-book2"></i>
 							</span>
 							<div class="feature-copy">
-								<h3>Capacidad de aprendizaje y adaptación a diferentes puestos.</h3>
+								<h3 class="translate" data-key="skills.skill1"></h3>
 							</div>
 						</div>
 					</div>
@@ -442,7 +411,7 @@
 								<i class="icon-users2"></i>
 							</span>
 							<div class="feature-copy">
-								<h3>Capacidad de trabajo en equipo.</h3>
+								<h3 class="translate" data-key="skills.skill2"></h3>
 							</div>
 						</div>
 
@@ -453,7 +422,7 @@
 								<i class="icon-calendar"></i>
 							</span>
 							<div class="feature-copy">
-								<h3>Capacidad de organización.</h3>
+								<h3 class="translate" data-key="skills.skill3"></h3>
 							</div>
 						</div>
 					</div>
@@ -468,7 +437,7 @@
 								<i class="icon-film"></i>
 							</span>
 							<div class="feature-copy">
-								<h3>Dirección de cortos, videoclips y documentales.</h3>
+								<h3 class="translate" data-key="skills.skill4"></h3>
 							</div>
 						</div>
 
@@ -482,7 +451,7 @@
 		<div class="container">
 			<div class="row animate-box">
 				<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
-					<h2>Destacados</h2>
+					<h2 class="translate" data-key="highlights.title"></h2>
 				</div>
 			</div>
 			<div class="row">
@@ -492,7 +461,7 @@
 							class="blog-bg" style="background-image: url(images/portfolio-1.jpg);"></a>
 						<div class="blog-text">
 							<h3><a href="#">Algo Hipnótico - Ritmo Vudu</a></h3>
-							<p>PRODUCCIÓN</p>
+							<p class="translate" data-key="highlights.production"></p>
 						</div> 
 					</div>
 				</div>
@@ -502,7 +471,7 @@
 							class="blog-bg" style="background-image: url(images/portfolio-2.jpg);"></a>
 						<div class="blog-text">
 							<h3><a href="#">Toxicity - Dr. No</a></h3>
-							<p>DIRECCIÓN Y EDICIÓN</p>
+							<p class="translate" data-key="highlights.direction_editing"></p>
 						</div> 
 					</div>
 				</div>
@@ -512,7 +481,7 @@
 						class="blog-bg" style="background-image: url(images/portfolio-3.jpg);"></a>
 						<div class="blog-text">
 							<h3><a href="#">Flores de Carbón</a></h3>
-							<p>EDICIÓN</p>
+							<p class="translate" data-key="highlights.edition"></p>
 						</div> 
 					</div>
 				</div>
@@ -525,6 +494,16 @@
 	</div>
 
 	<img id="logo" src="favicon.png" alt="Logo de mi sitio">
+
+	<div class="dropdown-language">
+		<button class="dropbtn-language"><img id="flag" src="images/spain_flag.png" alt="Flag"><span id="lang">ES</span></button>
+		<div class="dropdown-content-language">
+			<button onclick="callToChangeLanguage('EN')"><img src="images/uk_flag.png" alt="English"></button>
+			<button onclick="callToChangeLanguage('ES')"><img src="images/spain_flag.png" alt="Spanish"></button>
+			<button onclick="callToChangeLanguage('AS')"><img src="images/asturias_flag.png" alt="Asturian"></button>
+			<button onclick="callToChangeLanguage('VAL')"><img src="images/valencia_flag.png" alt="Valencian"></button>
+		</div>
+	</div>
 	
 	<!-- jQuery -->
 	<script src="js/jquery.min.js"></script>
@@ -540,6 +519,27 @@
 	<script src="js/jquery.easypiechart.min.js"></script>
 	<!-- Main -->
 	<script src="js/main.js"></script>
+	<!-- i18n-->
+	<script src="js/i18n.js"></script>
+
+	<script>
+		function callToChangeLanguage(lang) {
+			changeLanguage(lang);
+			document.getElementById('lang').textContent = lang;
+			if(lang === 'EN') {
+				document.getElementById('flag').src = 'images/uk_flag.png';
+			} else if(lang === 'ES') {
+				document.getElementById('flag').src = 'images/spain_flag.png';
+			} else if (lang === 'AS') {
+				document.getElementById('flag').src = 'images/asturias_flag.png';
+			} else if (lang === 'VAL') {
+				document.getElementById('flag').src = 'images/valencia_flag.png';
+			}
+		}
+		document.addEventListener("DOMContentLoaded", function() {
+			callToChangeLanguage('ES');
+		});
+	</script>
 
 	</body>
 </html>

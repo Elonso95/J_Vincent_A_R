@@ -1235,6 +1235,55 @@ input[type="text"] {
     border-radius: 35px;
 }
 
+.dropdown-language {
+  position: fixed;
+  top: 10px;
+  right: 10px;
+}
+
+.dropdown-content-language {
+  display: none;
+  position: absolute;
+  min-width: 160px;
+  z-index: 1;
+  right: -100px;
+}
+
+.dropdown-content-language button {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  background: none;
+  border: none;
+  text-align: left;
+  width: 100%;
+  cursor: pointer;
+}
+
+.dropdown-language:hover .dropdown-content-language {
+  display: block;
+}
+
+.dropdown-content-language img,  .dropbtn-language img{
+  width: 40px;
+  height: 25px;
+  margin-right: 5px;
+}
+
+.dropbtn-language {
+  background-color: transparent;
+  padding: 7px;
+  border: none;
+  display: flex;
+  align-items: center;
+}
+
+.dropbtn-language span{
+  font-family: 'Kaushan Script', cursive;
+  font-size: x-large;
+}
+
 body {
   background: #2d2d2d;
 }
