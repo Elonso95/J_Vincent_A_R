@@ -1301,6 +1301,12 @@ input[type="text"] {
   text-decoration: underline;
 }
 
+#fh5co-about .first-block {
+  color: #fff; 
+  font-family: 'Space Mono', Arial, serif;  
+  font-weight: bold;
+}
+
 body {
   background: #2d2d2d;
 }
