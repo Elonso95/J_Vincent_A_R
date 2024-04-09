@@ -1191,19 +1191,19 @@ input[type="text"] {
   color: rgba(255, 255, 255, 0.5);
 }
 
-#fh5co-features .row {
+#fh5co-features .row, #fh5co-blog .row {
   justify-content: center;
   display: flex;
 }
 
 @media screen and (max-width: 768px) {
-  #fh5co-features .row {
+  #fh5co-features .row, #fh5co-blog .row {
     display: block;
   }
 }
 
 
-#fh5co-features .row.header {
+#fh5co-features .row.header, #fh5co-blog .row.header {
   justify-content: flex-start;
 }
 
