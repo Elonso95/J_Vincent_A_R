@@ -1289,6 +1289,18 @@ input[type="text"] {
   overflow: auto;
 }
 
+@media screen and (max-width: 768px) {
+  #fh5co-features .row {
+    justify-content: center !important;
+    display: grid;
+  }
+}
+
+.phone-mail-span {
+  color: rgb(252, 89, 2, 0.9) !important; 
+  text-decoration: underline;
+}
+
 body {
   background: #2d2d2d;
 }
