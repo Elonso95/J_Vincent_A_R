@@ -1296,6 +1296,11 @@ input[type="text"] {
   }
 }
 
+.phone-mail-span {
+  color: rgb(252, 89, 2, 0.9) !important; 
+  text-decoration: underline;
+}
+
 body {
   background: #2d2d2d;
 }

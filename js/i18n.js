@@ -25,7 +25,7 @@ var translates = {
         highlights: {
             direction_editing: "DIRECCIÓN Y EDICIÓN",
             edition: "EDICIÓN",
-            production: "PRODUCCION",
+            production: "PRODUCCIÓN",
             title: "Destacados"
         },
         skills: {
